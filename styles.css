@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root {
+    --primary: #92400E;    ;
+    --black: #333333;
+}
+body {
+    margin: 0;
+    font-family: 'Passion One', cursive;
+    color: var(--black);
+}
+.top{
+    background-color: var(--primary);
+    text-align: center;
+    margin:0rem;
+    padding: 1rem;
+}
+
+.container{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    margin:1rem 0rem ;
+    min-height: 20vh;
+    font-family: 'Passion One', cursive;
+    font-size: large;
+}
+
+#btn-translate{
+    background-color: var(--primary);
+    font-family: inherit;
+    margin:1rem 0rem ;
+    border: none;
+    font-size: large;
+    padding: 0.5rem 1rem  ;
+}
+
+#output-text{
+   margin: 1rem 0rem; 
+   border: 1px solid var(--black); 
+   height:10vh;
+   width:100%;
+   overflow: scroll;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem;
+}
+
+
+footer p{
+    margin: auto;
+    max-width: 600px;
+}
+
+.footer-about{
+    font-size: x-large;
+    font-weight: bold;
+}
